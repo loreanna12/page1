@@ -1,0 +1,138 @@
+* {
+
+
+
+    box-sizing: border-box;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+
+}
+
+body {
+    color: white;
+    background-color: #f8bbbb;
+
+    font-family: league spartan;
+
+
+    background-size: 100%;
+
+    background-repeat: repeat-y;
+}
+
+.navbar {
+    background-color: rgb(242, 242, 242);
+    padding: 16px;
+    align-items: center;
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar__nav__list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.button {
+    background-color: rgb(193, 135, 232);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+}
+
+.button:hover {
+
+    background-color: rgb(104, 25, 121);
+    color: white;
+}
+
+.section__jumbotron {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #f2f2f2;
+    padding: 30px;
+    margin-block-end: 10px;
+}
+
+.jumbotron__background {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 55%;
+    object-fit: cover;
+
+}
+
+.jumbotron__title {
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    width: 350px;
+
+
+}
+
+.card__img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.section__content__card__title{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f2f2f2;
+    padding: 19px 19px;
+}
+
+
