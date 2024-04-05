@@ -1,19 +1,21 @@
+
 * {
-
-
-
     box-sizing: border-box;
-    color: black;
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
     text-decoration: none;
     list-style: none;
-
-    padding: 0;
     margin: 0;
+    padding: 0;
     outline: none;
-
+    color: #494545;
 }
+
+
+
+
+
+
 
 body {
     color: white;
@@ -27,25 +29,31 @@ body {
     background-repeat: repeat-y;
 }
 
+
 .navbar {
-    background-color: rgb(242, 242, 242);
-    padding: 16px;
-    align-items: center;
+    background-color: #eddddd;
+    padding: 16px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .navbar__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 
 .navbar__nav__list {
     display: flex;
-    gap: 100px;
     align-items: center;
-
+    justify-content: center;
+    gap: 24px;
 }
+
+
 
 .button {
     background-color: rgb(193, 135, 232);
@@ -126,7 +134,7 @@ body {
     object-fit: contain;
 }
 
-.section__content__card__title{
+.section__content__card__title {
     display: flex;
     flex-direction: column;
     font-size: 32px;
@@ -134,5 +142,47 @@ body {
     color: #f2f2f2;
     padding: 19px 19px;
 }
+
+
+.footer {
+    background-color: rgb(47, 18, 77);
+    padding: 16px 20px;
+  }
+  
+  .footer__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__logo {
+    width: 150px;
+  }
+  
+  .footer__nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
